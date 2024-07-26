@@ -1,8 +1,11 @@
-# React + Vite
+# React lifting the state up
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this lesson we have learned how to lift the state up in React. We have created a simple task list application and a counter on top to count the completed tasks. We have seen how to pass the state and the functions to update the state from the parent component to the child components.
 
-Currently, two official plugins are available:
+At the beginning we had the state on the child component but when we created the counter we didn't have access to the state to update the count. We have moved the state to the parent component and passed the state and the functions to update the state to the child components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Controlled components (forms)
+
+We have also learned how to create controlled components in React. We have created a form to add new tasks to the list. We have seen how to handle the form submission and how to update the state with the new task.
+
+Check the portal for more information.
