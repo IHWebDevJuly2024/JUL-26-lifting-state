@@ -1,0 +1,26 @@
+.card{
+    background-color: rgba(250, 235, 215, 0.361);
+    padding: 1rem;
+    box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.137);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    h4{
+        font-size: 1rem
+    }
+}
+
+.people-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+
+    li{
+        background-color:bisque;
+        padding: 3px 10px;
+        border-radius: 1rem;
+        color: black;
+    }
+}
